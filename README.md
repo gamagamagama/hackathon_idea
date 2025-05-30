@@ -40,13 +40,13 @@ Simplified Project Scope
     • 💡 Includes a clean way to test smart contracts locally and on testnets.
     • 📊 Supports dynamic frontends for simulations and visualizations.
 
-✅ What You’ll Keep from Scaffold-ETH 2
+✅ from Scaffold-ETH 2
     • Frontend Stack: Next.js + Tailwind + wagmi.
     • Contracts: All contracts go into packages/hardhat/contracts.
     • Deployment: Use deploy/deploy.ts to deploy token + staking contracts.
     • Simulation UI: Add to pages/index.tsx or a custom pages/simulate.tsx.
 
-🧱 What You’ll Build on Top of It
+🧱Build on Top of It
     1. Custom ERC20 Token (or clone Scaffold-ETH’s existing YourToken):
         ◦ Mint tokens to connected wallet.
         ◦ Show balance in the UI.
@@ -59,7 +59,7 @@ Simplified Project Scope
     4. Balance-Based Simulation:
         ◦ Use wallet balance to determine yield tier or show different simulation paths.
 
-✅ So Yes: You Can
+✅ You Can 
     • Use Scaffold-ETH 2 exactly as your base.
     • Strip out extra stuff like YourContract, and build:
         ◦ /contracts/MyToken.sol
